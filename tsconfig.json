@@ -20,7 +20,6 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": [
-    "src"
-, "public-dev/react-shim.js"  ]
+  "include": ["src", "**/*.ts", "**/*.tsx", "**/*.jsx"],
+  "exclude": ["node_modules"]
 }
