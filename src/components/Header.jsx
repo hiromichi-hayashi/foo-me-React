@@ -31,6 +31,7 @@ const Header = () => {
         <Toolbar>
           <img className={classes.img} src={Logo} alt={'Logo'}/>
         </Toolbar>
+        <h>hello</h>
       </AppBar>
     </>
   )
