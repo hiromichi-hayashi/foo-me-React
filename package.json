@@ -23,7 +23,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "esbuild src/App.tsx --bundle --outfile=out.js",
+    "build": "esbuild src/App.jsx --bundle --outfile=out.js",
     "test": "react-scripts test",
     "lint": "eslint src && tsc --noEmit --skipLibCheck",
     "eject": "react-scripts eject"
