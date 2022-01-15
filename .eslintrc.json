@@ -18,9 +18,9 @@
   },
   "plugins": ["react", "@typescript-eslint"],
   "rules": {
-    "no-console": "error",
+    "no-console": "off",
     "react/prop-types": "off",
-    "semi": ["error", "never"],
-    "@typescript-eslint/semi": ["error", "never"]
+    "semi": ["off", "never"],
+    "@typescript-eslint/semi": ["off", "never"]
   }
 }

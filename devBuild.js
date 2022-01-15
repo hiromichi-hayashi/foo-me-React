@@ -24,7 +24,7 @@ del.sync("./public-dev/dist");
       incremental: dev, // Because we are listening for file changes to repack, and we want the development environment to use esbuild, dev is true.
       loader: {
         // This option changes the way the given input file is interpreted.
-        ".svg": "text",
+        ".svg": "dataurl",
         ".png": "dataurl",
       },
       bundle: true, // Bundling files means inlining any imported dependencies into the file itself.
